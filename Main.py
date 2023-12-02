@@ -6,7 +6,6 @@ from matplotlib.backend_bases import FigureCanvasBase
 from KnapsackUI import Ui_MainWindow
 from Algorithm import *
 import asyncio
-from asyncqt import QEventLoop, asyncSlot
 from PyQt6.QtCore import QThread, pyqtSignal, pyqtSlot, QObject, QRunnable, QThreadPool, QCoreApplication
 import qtinter
 import asyncio
